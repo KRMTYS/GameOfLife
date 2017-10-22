@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+* {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-size: 14px;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    background-color: #f6f6f6;
+}
+
+header {
+    width: 800px;
+    height: 42px;
+    font-size: 18px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#main {
+    width: 650px;
+    height: 490px;
+    float: left;
+}
+
+#screen {
+    margin: 5px;
+}
+
+#menu {
+    width: 150px;
+    height: 490px;
+    float: right;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#gen_count {
+    font-size: 18px;
+}
+
+#inputs {
+    margin: 5px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
