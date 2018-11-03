@@ -2,22 +2,24 @@
 
 ![screenshot](screenshot.png)
 
+[> github-pages](https://kentakuramochi.github.io/GameOfLife/)
+
 ## Description
 
 *Conway's Game of Life* available with web browser
 
-About *Conway's Game of Life* ... [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+About Conway's Game of Life : [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
-## How to use
+## Control
 
-- Turn a cell on/off ... clicking 
-- Play/pause continuous simulation ... "Play/Pause"
-- Play simulation 1 step ... "Step"
-- Clear all cells ... "Clear"
-- Distribute cells randomly ... "Random"
-    - "Clear" and "Random" buttons reset a generation count. 
-- Change FPS ... Slider (10~100)
-    - It probably contains an error. 
+|Control|Moves|
+|:-|:-|
+|Click a cell|Turn on/off the specified cell|
+|`Play` `Pause`|Start/stop the game of life|
+|`Step`|Go next generation|
+|`Clear`|Clear all cells (reset generation)|
+|`Random`|Distribute cells randomly (reset generation)|
+|Slider|Change FPS (10~100)|
 
 ## Requirement
 
